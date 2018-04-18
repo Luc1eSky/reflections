@@ -39,19 +39,13 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    I can use the commands directly in the command lines and it will show me
-    the changes in the terminal rather than going through different files 
-    which makes it super convenient and easy to detect changes between two
-    commits.
+    Fill in your answer here
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    I might make me more confident because I can always go back to an older
-    version that didn't break and could even identify which change caused
-    the break in the program. This helps a lot when trying out new things
-    that you are not 100% sure off.
+    Fill in your answer here
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I want to use it to track the changes I made to my relection text docs.
+    Fill in your answer here
