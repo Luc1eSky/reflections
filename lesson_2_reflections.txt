@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a git repository it created a .git folder that stores the different versions of my files whenever I created a commit for it.
+I need it to document the changes I made to my reflection files in case I want to go back in time and use an older version.
