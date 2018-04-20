@@ -2,3 +2,37 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When I initialize a git repository it created a .git folder that stores the different versions of my files whenever I created a commit for it.
 I need it to document the changes I made to my reflection files in case I want to go back in time and use an older version.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It gives you the chance to split up your rep into different parts so you can keep track of differences per logical change that
+maybe only apply to a certain file in your repo and not all the files in the repo.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can look at the differences between my working directory and staging directory and only stage the files where a logical change 
+occured and then create a commit for the change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are useful if you want to try out something new but don't want to break your current running code. It makes sense if you want
+to intentionally want to have two versions that exist e.g a easier version of the game. Branches help to accomplish that since you can create a
+branch at any point in time and only change certain things in one branch without touching the main branch (master).
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you to better understand the structure of you repo and the different branches including commits that you added. It also helps you to
+see if there are certain things that you changed and committed that can't be reached from your current branch since they don't show up
+in your git log command since they are not attached to a specific branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is that changes from both branches will be combined. We represent it as a new commit since the commits of the branch
+that gets merged into another are still callable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merges are way faster than manual merging and are less prone to human error. The disadvantage is that
+if there are ambiguities Git doesn't know which one to choose and that's were manually merging has an advantage.
+
+
